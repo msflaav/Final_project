@@ -3,83 +3,93 @@
 <head>
   <title>Book your minion</title>
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css"> changee
+  <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
  </head>
 
-<body>
+<body style="background-color:#FEF9E7;">
   <div class="container">
     <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Dropdown
+      <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Book Minion</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
 
-<ul class= "nav nav-tabs">
-  <li role="presentation" class="active">
-    <a href="#">Homepage</a>
-  </li>
-  <li role="presentation">
-    <a href= "profile.html">Profile</a>
-  </li>
-  <li role="presentation"><a href="#">Messages</a></li>
-</ul>
+    <ul class= "nav nav-tabs">
+      <li role="presentation">
+        <a href="#">Homepage</a>
+      </li>
+      <li role="presentation">
+        <a href= "profile.html">Profile</a>
+      </li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
 
   <div class="jumbotron">
     <div class="row">
- <div class="col-sm-8">
-    <h1>Healthy sandwiches for your team</h1>
-    <button type="button" class="btn btn-success">Success</button>
-
-</div>
-<div class="col-sm-4">
-    <img src='images/sandwich.png'>
-</div>
-</div>
-
-
+      <div class="col-sm-7">
+        <h1>Book your minion</h1>
+        <button type="button" class="btn btn-success">Book</button>
+      </div>
+    </div>
+    <div class="col-sm-5">
     <form role='form'>
       <label for="email">Find out more</label>
       <input type="text" name="email" >
       <button type="submit">Send</button>
     </form>
-
+  </div>
   </div>
 
   <div id="buzz">
-    <h2><small>The Buzz</small><br />What are people saying?</h2>
-      <div class=”row”>
-        <div>
-<div class=”col-sm-4”>
+    <h2><small>Find your Minion</small><br />What are people saying?</h2>
+      <div class="row">
+        <div class= "col-sm-3">
+          <img class ="responsive" img src='images/Bob.jpg'>
+          <blockquote>
+          <p>Bob has his eye on the job, Always helpful and always gets the job done.</p>
+          <small>Mr Smith, A regular Minion user</small>
+        </blockquote>
+        </div>
 
-      <img src='images/person.jpg'>
-      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
-      <small>Mr Smith, Professional sandwich taster</small>
-    </div>
-  </div>
-    <div>
-      <div class=”col-sm-4”>
+      <div>
+        <div class= "col-sm-3">
+          <img class= "responsive" img src='images/kev.jpg' width="200" height"300">
+          <blockquote>
+          <p>My work is always far more productive when we order Kevin. 60% more productive, in fact.</p>
+          <small>Miss McAdam, CEO Workplace Analytics</small>
+        </blockquote>
+        </div>
+      </div>
 
-      <img src='images/person.jpg'>
-      <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
-      <small>Miss McAdam, CEO Workplace Analytics</small>
-    </div>
-  </div>
-
-    <div>
-      <div class=”col-sm-4”>
-      <img src='images/person.jpg'>
-      <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+      <div>
+        <div class="col-sm-3">
+            <img class= "responsive" img src='images/stuart.jpg' width="200" height"40">
+            <blockquote>
+            <p>We switched to Stuart and won our first company prize as well as making a 100% prize. Coincidence? I think not!</p>
+            <small> Mr Little, Head of ToysRUs </small>
+          </blockquote>
+        </div>
+      </div>
+      <div>
+        <div class="col-sm-3">
+            <img class= "responsive" img src='images/Mark.jpg'>
+            <blockquote>
+            <p>Mark My words, Mark is the best minion out there by far.</p>
+            <small> Richard Branson, Head of Virgin Atlantic </small>
+          </blockquote>
+        </div>
+      </div>
     </div>
   </div>
   </div>
@@ -87,11 +97,11 @@
 
 
   <div id="mission">
-    <h2><small>Our mission</small><br />Join us in helping busy professionals eat healthily</h2>
+    <h2><small>Our mission</small><br />Delivering the best, one minion at a time</h2>
 
     <p>We believe that healthy workers are more productive workers.</p>
-    <p>Providing your team with a healthy lunch each day improves both motivation and morale.</p>
-    <p>We deliver healthy sandwiches, made with the best ingredients, to your workplace every day.</p>
+    <p>Supporting your team with hardworking minions improves both motivation and morale.</p>
+    <p>We deliver hardworking minions, that have the best qualities and add to your workplace every day.</p>
 
     <div id='social-buttons'>
       <button class='btn-twitter'>Twitter</button>
@@ -99,9 +109,7 @@
       <button class='btn-pinterest'>Pinterest</button>
     </div>
   </div>
-
-</div>
-
+        
 </body>
 
 
